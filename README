@@ -1,0 +1,36 @@
+Movies Order System
+
+This system manages orders of movies.
+
+Users in the system can:
+    1. Register to the system
+    2. Login to the system
+    3. Browse available movies.
+    4. Search movie by key.
+    5. Filter movies by category.
+    6. Order movies (includes adding movie to cart and placing order in the cart with all wanted movies)
+    7. Return a loaned movie
+    8. Add review to movie loaned by user.
+    9. Watch movie's reviews.
+    10. Watch user profile.
+
+Admins can also:
+    1. Add new movie.
+    2. Delete a movie.
+    3. Manage users- browse all users, for each user watch his loaned movies, make user admin/not admin.
+
+
+Steps to run the application:
+    1. Install Postgresql and open pgAdmin.
+    2. Create new DB and give it a name, for example: "MoviesOrderSystem".
+    3. Open file application.properties, and change the following values:
+        spring.datasource.name= NAME_OF_DB_CREATED_IN_STEP_2
+        spring.datasource.url=jdbc:postgresql://localhost:5432/NAME_OF_DB_CREATED_IN_STEP_2
+    4. Open CMD in the project root directory and run: mvn spring-boot:run.
+    5. Open pgAdmin, right click the DB created in step 2 and choose 'query tool'. In the query tool paste the queries located in file 'db-queries-add-data', select all and execute.
+    6. Open browser and navigate to localhost:8080 to access the app.
+
+    Note: I added 3 users with the following credentials:
+    1. user name: johndoe@gmail.com, password: password123 (not admin)
+    1. user name: janesmith@gmail.com, password: password456 (not admin)
+    1. user name: admin@gmail.com, password: admin (admin)

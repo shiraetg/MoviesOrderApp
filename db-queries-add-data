@@ -1,0 +1,24 @@
+INSERT INTO public.users (first_name, last_name, user_name, date_of_birth, gender, email, password, is_admin)
+VALUES
+('John', 'Doe', 'johndoe', '1990-01-01', 'Male', 'johndoe@gmail.com', '$2a$10$zkWCPgTpCh9WsiHC9TP3luxh7Mv8JOjLiufaOanKIAFNqpazMAFFq', false),
+('Jane', 'Smith', 'janesmith', '1985-05-15', 'Female', 'janesmith@gmail.com', '$2a$10$QuJfLk6FCIlk7QAxDoz8D.KCmLtxNOuVVTWfHPP0RHUV.aPm6iaJ2', false),
+('Admin', 'User', 'adminuser', '1980-12-12', 'Male', 'admin@gmail.com', '$2a$10$GyiuovG183kBdSIo4WrkL./Ri5jvTAzy0ECkqh2gJL4SQm6aVoMWS', true);
+
+-- Insert data into the movie table
+INSERT INTO public.movie (name, category, short_description, long_description, duration, status)
+VALUES
+('The Matrix', 'SCIENCE_FICTION', 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.', 'The Matrix is a 1999 science fiction action film written and directed by the Wachowskis.', 136, true),
+('Inception', 'SCIENCE_FICTION', 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.', 'Inception is a 2010 science fiction action film written and directed by Christopher Nolan.', 148, true),
+('The Dark Knight', 'ACTION', 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.', 'The Dark Knight is a 2008 superhero film directed by Christopher Nolan.', 152, true),
+('Titanic', 'ROMANCE', 'A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated RMS Titanic.', 'Titanic is a 1997 American epic romance and disaster film directed by James Cameron.', 195, true),
+('The Hangover', 'COMEDY', 'Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing.', 'The Hangover is a 2009 comedy film directed by Todd Phillips.', 100, true),
+('The Godfather', 'DRAMA', 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.', 'The Godfather is a 1972 American crime film directed by Francis Ford Coppola.', 175, true),
+('The Conjuring', 'HORROR', 'Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.', 'The Conjuring is a 2013 American supernatural horror film directed by James Wan.', 112, true),
+('The Lord of the Rings: The Fellowship of the Ring', 'FANTASY', 'A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.', 'The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson.', 178, true),
+('Se7en', 'THRILLER', 'Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.', 'Se7en is a 1995 American neo-noir psychological crime thriller film directed by David Fincher.', 127, true),
+('Indiana Jones and the Raiders of the Lost Ark', 'ADVENTURE', 'In 1936, archaeologist and adventurer Indiana Jones is hired by the US government to find the Ark of the Covenant before Adolf Hitlers Nazis can obtain its awesome powers.', 'Indiana Jones and the Raiders of the Lost Ark is a 1981 American action-adventure film directed by Steven Spielberg.', 115, true),
+('March of the Penguins', 'DOCUMENTARY', 'A look at the annual journey of Emperor penguins as they march - single file - to their traditional breeding ground.', 'March of the Penguins is a 2005 French feature-length nature documentary directed and co-written by Luc Jacquet.', 80, true),
+('Toy Story', 'ANIMATION', 'A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boys room.', 'Toy Story is a 1995 American computer-animated comedy film produced by Pixar Animation Studios and released by Walt Disney Pictures.', 81, true),
+('Pulp Fiction', 'CRIME', 'The lives of two mob hitmen, a boxer, a gangsters wife, and a pair of diner bandits intertwine in four tales of violence and redemption.', 'Pulp Fiction is a 1994 American neo-noir black comedy crime film written and directed by Quentin Tarantino.', 154, true),
+('Avatar', 'SCIENCE_FICTION', 'A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.', 'Avatar is a 2009 American epic science fiction film directed by James Cameron.', 162, true),
+('The Lion King', 'ANIMATION', 'Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.', 'The Lion King is a 1994 American animated musical drama film produced by Walt Disney Feature Animation.', 88, true);
