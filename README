@@ -26,6 +26,8 @@ Steps to run the application:
     3. Open file application.properties, and change the following values:
         spring.datasource.name= NAME_OF_DB_CREATED_IN_STEP_2
         spring.datasource.url=jdbc:postgresql://localhost:5432/NAME_OF_DB_CREATED_IN_STEP_2
+        spring.datasource.username=YOUR-USERNAME
+        spring.datasource.password=YOUR-PASSWORD
     4. Open CMD in the project root directory and run: mvn spring-boot:run.
     5. Open pgAdmin, right click the DB created in step 2 and choose 'query tool'. In the query tool paste the queries located in file 'db-queries-add-data', select all and execute.
     6. Open browser and navigate to localhost:8080 to access the app.
