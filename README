@@ -32,5 +32,5 @@ Steps to run the application:
 
     Note: I added 3 users with the following credentials:
     1. user name: johndoe@gmail.com, password: password123 (not admin)
-    1. user name: janesmith@gmail.com, password: password456 (not admin)
-    1. user name: admin@gmail.com, password: admin (admin)
+    2. user name: janesmith@gmail.com, password: password456 (not admin)
+    3. user name: admin@gmail.com, password: admin (admin)
